@@ -33,8 +33,8 @@ def highest_product(x):
             negative.remove(m)
         return result
 
-    # kommer vi hit har vi to muligheter: Det største produktet kan komme av
-    # 1) to negative tall og et positivt
+    # kommer vi hit har vi to muligheter: Det største produktet kan komme av enten
+    # 1) to negative tall og et positivt, eller
     # 2) tre positive tall
     opt1 = 1
     if len(negative) == 1:
